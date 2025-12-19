@@ -1,16 +1,14 @@
 {
   "name": "DVD Store Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/node:20-bullseye",
-  "features": {},
-  "postCreateCommand": "npm install",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine",
+  "postCreateCommand": "apk add --no-cache curl bash git && curl -fsSL https://deb.nodesource.com/setup_23.x | bash - && apk add --no-cache nodejs npm && npm install",
   "forwardPorts": [3000],
-  "remoteUser": "node",
+  "remoteUser": "root",
   "customizations": {
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "ms-azuretools.vscode-docker",
         "orta.vscode-jest"
       ]
     }
