@@ -1,6 +1,6 @@
 {
   "name": "DVD Store Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/node:23-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/node:20-bullseye",
   "features": {},
   "postCreateCommand": "npm install",
   "forwardPorts": [3000],
