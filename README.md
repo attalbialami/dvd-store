@@ -1,6 +1,7 @@
 # 🎬 "ATTALBI ALAMI" DVD store
 
 [![CI/CD Pipeline](https://github.com/attalbialami/dvd-store/actions/workflows/pipeline.yml/badge.svg)](https://github.com/attalbialami/dvd-store/actions/workflows/pipeline.yml)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/github-hrptp2aa?view=editor)
 
 ##  Project Overview
 TypeScript CLI app for calculating DVD pricing with promotions.
