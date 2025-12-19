@@ -1,5 +1,7 @@
 # 🎬 "ATTALBI ALAMI" DVD store
 
+[![CI/CD Pipeline](https://github.com/attalbialami/dvd-store/actions/workflows/pipeline.yml/badge.svg)](https://github.com/attalbialami/dvd-store/actions/workflows/pipeline.yml)
+
 ##  Project Overview
 TypeScript CLI app for calculating DVD pricing with promotions.
 The project models a small retail scenario for **Back to the Future** DVDs, using clean, modular, and testable architecture.
