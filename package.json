@@ -1,0 +1,44 @@
+{
+  "name": "dvd-store",
+  "version": "1.0.0",
+  "description": "DVD store pricing CLI with promotions",
+  "main": "dist/main.js",
+  "scripts": {
+    "nvm": "node scripts/nvm.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node-dev --respawn --transpile-only --quiet src/main.ts",
+    "dev:api": "ts-node-dev --respawn --transpile-only --quiet src/index.ts",
+    "start:api": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.3",
+    "@eslint/js": "9.39.2",
+    "@types/express": "5.0.6",
+    "@types/jest": "29.5.14",
+    "@types/supertest": "6.0.3",
+    "@typescript-eslint/eslint-plugin": "8.50.0",
+    "@typescript-eslint/parser": "8.50.0",
+    "eslint": "9.39.2",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "globals": "16.5.0",
+    "jest": "29.7.0",
+    "mock-stdin": "1.0.0",
+    "prettier": "3.7.4",
+    "supertest": "7.1.4",
+    "ts-jest": "29.4.6",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "dotenv": "17.2.3",
+    "express": "5.2.1"
+  }
+}
